@@ -349,3 +349,152 @@ a.backToTop:hover{
 .cd-top--fade-out {
     opacity: 0.9;
 }
+
+/* RESPONSIVE */
+
+
+
+
+@media screen and (max-width: 1399.98px) {
+
+    .carousel__banner {
+        width: 400px;
+        height: 400px;
+    }
+
+    .carousel__img .carousel__banner img {
+        left: 100px;
+        top: -60px;
+    }
+
+    .carousel__content h2 {
+        font-size: 17px;
+    }
+
+    .carousel__content h1 {
+        font-size: 40px;
+    }
+
+
+
+    .aboutme__banner {
+        width: 300px;
+        height: 300px;
+    }
+
+    .aboutme__banner img {
+        top: 30px;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+
+    .carousel__banner {
+        width: 300px;
+        height: 300px;
+    }
+
+    .carousel__img .carousel__banner img {
+        left:30px;
+        top: 0px;
+    }
+
+    .carousel__content h2 {
+        font-size: 20px;
+        max-width: 220px;
+    }
+
+    .carousel a {
+        font-size: 18px;
+    }
+
+    li.skill__checklist {
+        font-size: 18px;
+    }
+
+    .aboutme__text p {
+        font-size: 18px;
+    }
+
+    .aboutme__text h3 {
+        font-size: 30px
+    }
+
+    .aboutme__banner {
+        width: 100%;
+    }
+
+    .aboutme__banner img {
+        top: 30px;
+        left: 0px;
+        width: 50%;
+        transform: translateX(50%);
+    }
+
+    .interest .title {
+        font-size: 30px;
+    }
+
+    .project .nav-link {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .project .nav-link {
+        font-size: 15px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    a.navbar-brand {
+        font-size: 25px;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 10px;
+    }
+
+    .carousel__content h1 {
+        font-size: 35px;
+
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .project p {
+        font-size: 15px;
+    }
+
+    .carousel__img .carousel__banner img {
+        left: -15px;
+        width: 75%;
+        height: 75%;
+        top: 20px;
+
+    }
+
+    .contact .title h2 {
+        font-size: 30px;
+    }
+
+    .contact .icon__list img {
+        width: 30px;
+    }
+
+    .footer__content p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 575.98px) {
+    
+}
