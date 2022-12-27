@@ -269,6 +269,8 @@ li.skill__checklist span.fa {
     
 }
 
+
+
 button:focus {
     outline: none;
 }
@@ -281,6 +283,7 @@ button:focus {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    color: white;
 }
 
 .navbar-nav a.nav-link:hover {
